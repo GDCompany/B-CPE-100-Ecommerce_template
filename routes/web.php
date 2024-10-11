@@ -11,6 +11,7 @@ use App\Livewire\ProductPage;
 use App\Livewire\ForgotpasswordPage;
 use App\Livewire\AboutPage;
 use App\Livewire\ContactPage;
+use App\Livewire\Dashboard\IndexDash;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,3 +43,5 @@ Route::get("/fogortpassword",  App\Livewire\ForgotpasswordPage::class)->name('fo
 Route::get("/about",  App\Livewire\AboutPage::class)->name('about');
 
 Route::get("/contact",  App\Livewire\ContactPage::class)->name('contact');
+
+Route::get("/dash",  App\Livewire\Dashboard\IndexDash::class)->name('dash');

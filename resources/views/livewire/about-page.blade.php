@@ -87,7 +87,7 @@
         <p class="text-gray-600 mb-6">
             Discover how we can help you achieve your digital transformation goals. Get in touch with us today!
         </p>
-        <a href="#" class="bg-red-500 text-white px-6 py-3 rounded hover:bg-red-600 transition">Contact Us</a>
+        <a href="{{ route('contact') }}" class="bg-red-500 text-white px-6 py-3 rounded hover:bg-red-600 transition">Contact Us</a>
     </div>
 
 
