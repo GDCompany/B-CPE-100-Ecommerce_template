@@ -26,24 +26,6 @@
          $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))"
     :class="{'dark text-bodydark bg-boxdark-2': darkMode === true}"
   >
-    <!-- ===== Preloader Start ===== -->
-    @include('livewire.dashboard.partials.preloader')
-    <!-- ===== Preloader End ===== -->
-
-    <!-- ===== Page Wrapper Start ===== -->
-    <div class="flex h-screen overflow-hidden">
-      <!-- ===== Sidebar Start ===== -->
-          @include('livewire.dashboard.partials.sidebar')
-      <!-- ===== Sidebar End ===== -->
-
-      <!-- ===== Content Area Start ===== -->
-      <div
-        class="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden"
-      >
-        <!-- ===== Header Start ===== -->
-        @include('livewire.dashboard.partials.header')
-
-        <!-- ===== Header End ===== -->
 
         <!-- ===== Main Content Start ===== -->
         <main>

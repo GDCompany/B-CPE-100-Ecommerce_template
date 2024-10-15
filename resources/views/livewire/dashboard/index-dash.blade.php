@@ -18,13 +18,15 @@
     :class="{'dark text-bodydark bg-boxdark-2': darkMode === true}"
   >
     <!-- ===== Preloader Start ===== -->
-    <include src="./partials/preloader.html"></include>
+     @include('livewire.dashboard.partials.preloader')
+    <!-- <include src="./partials/preloader.html"></include> -->
     <!-- ===== Preloader End ===== -->
 
     <!-- ===== Page Wrapper Start ===== -->
     <div class="flex h-screen overflow-hidden">
       <!-- ===== Sidebar Start ===== -->
-      <include src="./partials/sidebar.html"></include>
+      @include('livewire.dashboard.partials.sidebar')
+      <!-- <include src="./partials/sidebar.html"></include> -->
       <!-- ===== Sidebar End ===== -->
 
       <!-- ===== Content Area Start ===== -->
@@ -32,7 +34,8 @@
         class="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden"
       >
         <!-- ===== Header Start ===== -->
-        <include src="./partials/header.html" />
+        @include('livewire.dashboard.partials.header')
+        <!-- <include src="./partials/header.html" /> -->
         <!-- ===== Header End ===== -->
 
         <!-- ===== Main Content Start ===== -->
@@ -286,24 +289,29 @@
               class="mt-4 grid grid-cols-12 gap-4 md:mt-6 md:gap-6 2xl:mt-7.5 2xl:gap-7.5"
             >
               <!-- ====== Chart One Start -->
-              <include src="./partials/chart-01.html" />
+              @include('livewire.dashboard.partials.chart-01')
+              <!-- <include src="./partials/chart-01.html" /> -->
               <!-- ====== Chart One End -->
 
               <!-- ====== Chart Two Start -->
-              <include src="./partials/chart-02.html" />
+              @include('livewire.dashboard.partials.chart-02')
+              <!-- <include src="./partials/chart-02.html" /> -->
               <!-- ====== Chart Two End -->
 
               <!-- ====== Chart Three Start -->
-              <include src="./partials/chart-03.html" />
+              @include('livewire.dashboard.partials.chart-03')
+              <!-- <include src="./partials/chart-03.html" /> -->
               <!-- ====== Chart Three End -->
 
               <!-- ====== Map One Start -->
-              <include src="./partials/map-01.html" />
+              @include('livewire.dashboard.partials.map-01')
+              <!-- <include src="./partials/map-01.html" /> -->
               <!-- ====== Map One End -->
 
               <!-- ====== Table One Start -->
               <div class="col-span-12 xl:col-span-8">
-                <include src="./partials/table-01.html" />
+              @include('livewire.dashboard.partials.table-01')
+                <!-- <include src="./partials/table-01.html" /> -->
               </div>
               <!-- ====== Table One End -->
 
