@@ -2,12 +2,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
       eCommerce Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template
     </title>
+    
   </head>
 
   <body
@@ -331,7 +333,7 @@
                     class="flex items-center gap-5 px-7.5 py-3 hover:bg-gray-3 dark:hover:bg-meta-4"
                   >
                     <div class="relative h-14 w-14 rounded-full">
-                      <img src="./images/user/user-03.png" alt="User" />
+                      <img src="{{ asset('back/images/user/user-03.png') }}" alt="User" />
                       <span
                         class="absolute bottom-0 right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-meta-3"
                       ></span>
@@ -362,7 +364,7 @@
                     class="flex items-center gap-5 px-7.5 py-3 hover:bg-gray-3 dark:hover:bg-meta-4"
                   >
                     <div class="relative h-14 w-14 rounded-full">
-                      <img src="./images/user/user-04.png" alt="User" />
+                      <img src="{{ asset('back/images/user/user-04.png') }}" alt="User" />
                       <span
                         class="absolute bottom-0 right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-meta-3"
                       ></span>
@@ -385,7 +387,7 @@
                     class="flex items-center gap-5 px-7.5 py-3 hover:bg-gray-3 dark:hover:bg-meta-4"
                   >
                     <div class="relative h-14 w-14 rounded-full">
-                      <img src="./images/user/user-05.png" alt="User" />
+                      <img src="{{ asset('back/images/user/user-05.png') }}" alt="User" />
                       <span
                         class="absolute bottom-0 right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-meta-6"
                       ></span>
@@ -408,7 +410,7 @@
                     class="flex items-center gap-5 px-7.5 py-3 hover:bg-gray-3 dark:hover:bg-meta-4"
                   >
                     <div class="relative h-14 w-14 rounded-full">
-                      <img src="./images/user/user-01.png" alt="User" />
+                      <img src="{{ asset('back/images/user/user-01.png') }}" alt="User" />
                       <span
                         class="absolute bottom-0 right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-meta-3"
                       ></span>
@@ -439,7 +441,7 @@
                     class="flex items-center gap-5 px-7.5 py-3 hover:bg-gray-3 dark:hover:bg-meta-4"
                   >
                     <div class="relative h-14 w-14 rounded-full">
-                      <img src="./images/user/user-02.png" alt="User" />
+                      <img src="{{ asset('back/images/user/user-02.png') }}" alt="User" />
                       <span
                         class="absolute bottom-0 right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-meta-7"
                       ></span>
@@ -462,7 +464,7 @@
                     class="flex items-center gap-5 px-7.5 py-3 hover:bg-gray-3 dark:hover:bg-meta-4"
                   >
                     <div class="relative h-14 w-14 rounded-full">
-                      <img src="./images/user/user-05.png" alt="User" />
+                      <img src="{{ asset('back/images/user/user-05.png') }}" alt="User" />
                       <span
                         class="absolute bottom-0 right-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-meta-6"
                       ></span>

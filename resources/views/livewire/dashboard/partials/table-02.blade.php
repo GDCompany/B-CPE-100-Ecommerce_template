@@ -31,7 +31,7 @@
     <div class="col-span-3 flex items-center">
       <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
         <div class="h-12.5 w-15 rounded-md">
-          <img src="./images/product/product-01.png" alt="Product" />
+          <img src="{{ asset('back/images/product/product-01.png') }}" alt="Product" />
         </div>
         <p class="text-sm font-medium text-black dark:text-white">
           Apple Watch Series 7
@@ -57,7 +57,7 @@
     <div class="col-span-3 flex items-center">
       <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
         <div class="h-12.5 w-15 rounded-md">
-          <img src="./images/product/product-02.png" alt="Product" />
+          <img src="{{ ('back/images/product/product-02.png') }}" alt="Product" />
         </div>
         <p class="text-sm font-medium text-black dark:text-white">
           Macbook Pro M1
@@ -83,7 +83,7 @@
     <div class="col-span-3 flex items-center">
       <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
         <div class="h-12.5 w-15 rounded-md">
-          <img src="./images/product/product-03.png" alt="Product" />
+          <img src="{{ ('back/images/product/product-03.png') }}" alt="Product" />
         </div>
         <p class="text-sm font-medium text-black dark:text-white">
           Dell Inspiron 15
